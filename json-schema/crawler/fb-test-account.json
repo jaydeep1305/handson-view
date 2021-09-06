@@ -1,0 +1,39 @@
+[
+    {
+        "display_name":"id",
+        "data":"id", 
+        "type":"text",
+        "readOnly": true
+    },
+    {
+        "display_name":"userid",
+        "data":"userid", 
+        "type":"text"
+    },
+    {
+        "display_name":"email",
+        "data":"supportive_variables.email", 
+        "type":"text"
+    },
+    {
+        "display_name":"password",
+        "data":"supportive_variables.password", 
+        "type":"text"
+    },
+    {
+        "display_name":"xs",
+        "data":"supportive_variables.xs", 
+        "type":"text"
+    },
+    {
+        "display_name":"message",
+        "data":"message", 
+        "type":"text"
+    },
+    {
+        "display_name":"status",
+        "data":"status", 
+        "type":"dropdown",
+        "source": ["PENDING","ACTIVE","SUSPEND","COOKIE_LIVE","COOKIE_DEAD"]
+    }
+]
