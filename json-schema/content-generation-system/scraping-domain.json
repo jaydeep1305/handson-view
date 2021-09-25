@@ -18,7 +18,7 @@
     {
         "display_name":"wp_json",
         "data":"wp_json", 
-        "type":"text"
+        "type":"checkbox"
     },
     {
         "display_name":"title_selector",
@@ -68,43 +68,45 @@
     {
         "display_name":"rephrase_sentence",
         "data":"rephrase_sentence", 
-        "type":"text"
+        "type":"checkbox"
     },
     {
         "display_name":"readable_sentence",
         "data":"readable_sentence", 
-        "type":"text"
+        "type":"checkbox"
     },
     {
         "display_name":"auto_generate_sentence",
         "data":"auto_generate_sentence", 
-        "type":"text"
+        "type":"checkbox"
     },
 
     {
         "display_name":"output_length",
         "data":"output_length", 
-        "type":"text"
+        "type":"dropdown",
+        "source": ["long","medium","short"]
     },
     {
         "display_name":"introduction",
         "data":"introduction", 
-        "type":"text"
+        "type":"checkbox"
     },
     {
         "display_name":"introduction_framework",
         "data":"introduction_framework", 
-        "type":"text"
+        "type":"dropdown",
+        "source": ["AIDA","PAS","BAB"]
     },
     {
         "display_name":"conclusion",
         "data":"conclusion", 
-        "type":"text"
+        "type":"checkbox"
     },
     {
         "display_name":"tag_as_website",
         "data":"tag_as_website", 
-        "type":"text"
+        "type":"checkbox"
     },
     {
         "display_name":"status",
