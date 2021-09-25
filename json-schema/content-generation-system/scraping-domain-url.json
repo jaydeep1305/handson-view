@@ -8,7 +8,8 @@
     {
         "display_name":"domain_name",
         "data":"domain_name", 
-        "type":"text"
+        "type":"text",
+        "readOnly": true
     },
 
     {
