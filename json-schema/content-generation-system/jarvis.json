@@ -8,8 +8,7 @@
     {
         "display_name":"email",
         "data":"email", 
-        "type":"text",
-        "readOnly": true
+        "type":"text"
     },
     {
         "display_name":"password",
