@@ -104,7 +104,7 @@
     {
         "display_name":"tag_as_website",
         "data":"tag_as_website", 
-        "type":"boolean"
+        "type":"text"
     },
     {
         "display_name":"status",
