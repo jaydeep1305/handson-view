@@ -1,0 +1,66 @@
+[
+    {
+        "display_name":"id",
+        "data":"id", 
+        "type":"text",
+        "readOnly": true
+    },
+    {
+        "display_name":"domain_name",
+        "data":"domain_name", 
+        "type":"text"
+    },
+
+    {
+        "display_name":"url",
+        "data":"url", 
+        "type":"text"
+    },
+    {
+        "display_name":"author_name",
+        "data":"author_name", 
+        "type":"text"
+    },
+    {
+        "display_name":"priority",
+        "data":"priority", 
+        "type":"text"
+    },
+    {
+        "display_name":"start_time",
+        "data":"start_time", 
+        "type":"text"
+    },
+    {
+        "display_name":"end_time",
+        "data":"end_time", 
+        "type":"text"
+    },
+    {
+        "display_name":"generation_time_duration",
+        "data":"generation_time_duration", 
+        "type":"text"
+    },
+    {
+        "display_name":"input_word_count",
+        "data":"input_word_count", 
+        "type":"text"
+    },
+    {
+        "display_name":"generated_word_count",
+        "data":"generated_word_count", 
+        "type":"text"
+    },
+
+    {
+        "display_name":"status",
+        "data":"status", 
+        "type":"dropdown",
+        "source": ["INITIATE","AVALIABLE","SUSPEND","NOT_AVALIABLE"]
+    },
+    {
+        "display_name":"message",
+        "data":"message", 
+        "type":"text"
+    }
+]
