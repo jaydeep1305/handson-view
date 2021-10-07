@@ -44,7 +44,7 @@
         "display_name":"status",
         "data":"status", 
         "type":"dropdown",
-        "source": ["INITIATE","AVALIABLE","SUSPEND","NOT_AVALIABLE"]
+        "source": ["INITIATE","AVAILABLE","SUSPEND","NOT_AVALIABLE"]
     },
     {
         "display_name":"message",
