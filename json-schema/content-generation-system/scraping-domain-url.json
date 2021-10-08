@@ -11,11 +11,16 @@
         "type":"text",
         "readOnly": true
     },
-
     {
         "display_name":"url",
         "data":"url", 
         "type":"text"
+    },
+    {
+        "display_name":"status",
+        "data":"status", 
+        "type":"dropdown",
+        "source": ["INITIATE","PROCESS","SUCCESS","FAIL"]
     },
     {
         "display_name":"author_name",
@@ -51,13 +56,6 @@
         "display_name":"generated_word_count",
         "data":"generated_word_count", 
         "type":"text"
-    },
-
-    {
-        "display_name":"status",
-        "data":"status", 
-        "type":"dropdown",
-        "source": ["INITIATE","AVALIABLE","SUSPEND","NOT_AVALIABLE"]
     },
     {
         "display_name":"message",
