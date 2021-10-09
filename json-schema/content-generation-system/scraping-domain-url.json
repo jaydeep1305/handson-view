@@ -23,6 +23,11 @@
         "source": ["INITIATE","PROCESS","SUCCESS","FAIL"]
     },
     {
+        "display_name":"result",
+        "data":"result", 
+        "type":"text"
+    },
+    {
         "display_name":"author_name",
         "data":"author_name", 
         "type":"text"
