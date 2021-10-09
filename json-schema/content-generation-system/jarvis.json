@@ -16,6 +16,12 @@
         "type":"text"
     },
     {
+        "display_name":"status",
+        "data":"status", 
+        "type":"dropdown",
+        "source": ["INITIATE","AVALIABLE","SUSPEND","NOT_AVALIABLE"]
+    },
+    {
         "display_name":"refresh_token",
         "data":"refresh_token", 
         "type":"text"
@@ -39,12 +45,6 @@
         "display_name":"access_token",
         "data":"access_token", 
         "type":"text"
-    },
-    {
-        "display_name":"status",
-        "data":"status", 
-        "type":"dropdown",
-        "source": ["INITIATE","AVALIABLE","SUSPEND","NOT_AVALIABLE"]
     },
     {
         "display_name":"message",
